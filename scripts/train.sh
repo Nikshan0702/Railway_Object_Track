@@ -2,9 +2,9 @@
 set -euo pipefail
 
 # Sample training command. Adjust paths and hyperparameters as needed.
-python -m src.train \
+python3 -m src.train \
   --model yolov8n-obb.pt \
-  --data Dataset/railway_track.yaml \
+  --data railway_track.yaml \
   --imgsz 640 \
   --epochs 200 \
   --batch 16 \

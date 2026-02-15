@@ -1,0 +1,13 @@
+task: obb  # oriented bounding boxes (4-point quadrilaterals)
+
+# Dataset root folder (relative to this repo). This folder is gitignored by default.
+# If your dataset lives elsewhere, change this to an absolute path.
+path: Dataset
+
+train:
+  - thermal/train/images
+val:
+  - thermal/valid/images
+
+names:
+  0: railway_track

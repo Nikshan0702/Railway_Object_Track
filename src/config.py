@@ -12,7 +12,7 @@ RUNS_ROOT = PROJECT_ROOT / "runs"
 MODELS_ROOT = PROJECT_ROOT / "models"
 
 # Default dataset YAML expected by Ultralytics YOLO.
-DEFAULT_DATA_YAML = DATA_ROOT / "railway_track.yaml"
+DEFAULT_DATA_YAML = PROJECT_ROOT / "railway_track.yaml"
 # Preferred validation image folders for the three modalities
 DEFAULT_SAMPLE_DIRS = [
     DATA_ROOT / "rgb/valid/images",      # labeled RGB set
